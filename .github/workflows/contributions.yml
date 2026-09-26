@@ -1,0 +1,60 @@
+name: Contribuições em movimento
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/contributions.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Generate cyan contribution snakes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#164e63,#0e7490,#0891b2,#67e8f9
+            dist/snake.svg?palette=github-light&color_snake=#0891b2&color_dots=#ebedf0,#cffafe,#67e8f9,#22d3ee,#0891b2
+
+      - name: Publish animations
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s dist/snake.svg
+          test -s dist/snake-dark.svg
+          cp dist/snake.svg "$RUNNER_TEMP/snake.svg"
+          cp dist/snake-dark.svg "$RUNNER_TEMP/snake-dark.svg"
+
+          if git ls-remote --exit-code --heads origin output > /dev/null 2>&1; then
+            git fetch origin output
+            git checkout -B output origin/output
+          else
+            git checkout --orphan output
+            git rm -rf --ignore-unmatch .
+          fi
+
+          cp "$RUNNER_TEMP/snake.svg" snake.svg
+          cp "$RUNNER_TEMP/snake-dark.svg" snake-dark.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snake.svg snake-dark.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update contribution animations'
+            git push origin HEAD:output
+          fi

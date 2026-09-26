@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.png" alt="Gustavo Henrick — Backend, Desktop e SQL." width="100%" />
+  <img src="./assets/header-profile.png" alt="Gustavo Henrick — Backend, Desktop e SQL." width="100%" />
 </p>
 
 <p align="center">
