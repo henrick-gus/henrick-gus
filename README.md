@@ -26,7 +26,7 @@ Gosto de investigar sistemas legados, entender gargalos e simplificar o que fico
 | Foco | Ferramentas e tecnologias |
 | :--- | :--- |
 | Base principal | Delphi · Object Pascal · Firebird SQL |
-| Bancos de dados | PostgreSQL · SQLite |
+| Bancos de dados | Firebird · PostgreSQL · SQLite |
 | Ecossistema desktop | FireDAC · FastReport |
 | Desenvolvimento | Git · GitHub · VS Code |
 | Aprofundando | Python |
