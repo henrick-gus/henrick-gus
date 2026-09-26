@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Gustavo Henrick — Backend, Desktop e SQL</title>
+  <desc id="desc">Banner tecnológico com fundo grafite, linhas de circuito e detalhes em ciano.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2837" stroke-width="1"/></pattern>
+    <linearGradient id="line"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#164e63" stop-opacity=".42"/><stop offset="1" stop-color="#0b1018" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="#0b1018"/>
+  <rect x="1" y="1" width="1278" height="358" rx="17" fill="url(#grid)" stroke="#263346"/>
+  <ellipse cx="1080" cy="180" rx="410" ry="310" fill="url(#glow)"/>
+  <path d="M66 61H112" stroke="#22d3ee" stroke-width="4"/>
+  <text x="130" y="67" fill="#9cabbf" font-family="Consolas,monospace" font-size="16" letter-spacing="3">GITHUB / HENRICK-GUS</text>
+  <text x="62" y="184" fill="#eff6ff" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Gustavo Henrick<tspan fill="#22d3ee">_</tspan></text>
+  <text x="66" y="234" fill="#a6b6c9" font-family="Consolas,monospace" font-size="20" letter-spacing="2">BACKEND / DESKTOP / SQL</text>
+  <path d="M66 291H717" stroke="#263346"/>
+  <circle cx="73" cy="316" r="4" fill="#22d3ee"/>
+  <text x="89" y="321" fill="#a6b6c9" font-family="Consolas,monospace" font-size="13" letter-spacing="1.5">ABERTO A OPORTUNIDADES</text>
+  <g fill="none" stroke="url(#line)" stroke-width="2" opacity=".7">
+    <path d="M1280 78H1092L1032 138H912"/><path d="M1280 282H1132L1072 222H952"/>
+    <path d="M1160 0V64L1115 109"/><path d="M1195 360V309L1150 264"/>
+    <rect x="922" y="112" width="148" height="148" rx="24" transform="rotate(-12 996 186)"/>
+  </g>
+  <g fill="#0b1018" stroke="#22d3ee" stroke-width="2"><circle cx="912" cy="138" r="5"/><circle cx="952" cy="222" r="5"/><circle cx="1115" cy="109" r="5"/></g>
+  <text x="946" y="206" fill="#67e8f9" font-family="Consolas,monospace" font-size="57" font-weight="700">&lt;/&gt;</text>
+</svg>
+
