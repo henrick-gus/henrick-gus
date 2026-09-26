@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.png" alt="Gustavo Henrick — Backend, Desktop e SQL. Aberto a oportunidades." width="100%" />
+  <img src="./assets/header.png" alt="Gustavo Henrick — Backend, Desktop e SQL." width="100%" />
 </p>
 
 <p align="center">
@@ -39,5 +39,4 @@ Um estudo sobre consultas N+1 na navegação de registros hierárquicos, usando 
 
 ---
 
-**Aberto a oportunidades em desenvolvimento de software.**  
-Para conversar sobre uma vaga ou conhecer melhor meu trabalho: **[LinkedIn](https://www.linkedin.com/in/henrick-gus/)** · **[Portfólio](https://gustavohenrick.com/)**.
+Conheça mais sobre meu trabalho: **[LinkedIn](https://www.linkedin.com/in/henrick-gus/)** · **[Portfólio](https://gustavohenrick.com/)**.

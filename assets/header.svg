@@ -15,7 +15,7 @@
   <text x="66" y="234" fill="#a6b6c9" font-family="Consolas,monospace" font-size="20" letter-spacing="2">BACKEND / DESKTOP / SQL</text>
   <path d="M66 291H717" stroke="#263346"/>
   <circle cx="73" cy="316" r="4" fill="#22d3ee"/>
-  <text x="89" y="321" fill="#a6b6c9" font-family="Consolas,monospace" font-size="13" letter-spacing="1.5">ABERTO A OPORTUNIDADES</text>
+  <text x="89" y="321" fill="#a6b6c9" font-family="Consolas,monospace" font-size="13" letter-spacing="1.5">SOFTWARE / DADOS / INTEGRAÇÕES</text>
   <g fill="none" stroke="url(#line)" stroke-width="2" opacity=".7">
     <path d="M1280 78H1092L1032 138H912"/><path d="M1280 282H1132L1072 222H952"/>
     <path d="M1160 0V64L1115 109"/><path d="M1195 360V309L1150 264"/>
@@ -24,4 +24,3 @@
   <g fill="#0b1018" stroke="#22d3ee" stroke-width="2"><circle cx="912" cy="138" r="5"/><circle cx="952" cy="222" r="5"/><circle cx="1115" cy="109" r="5"/></g>
   <text x="946" y="206" fill="#67e8f9" font-family="Consolas,monospace" font-size="57" font-weight="700">&lt;/&gt;</text>
 </svg>
-
