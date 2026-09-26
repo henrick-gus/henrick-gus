@@ -37,6 +37,14 @@ Gosto de investigar sistemas legados, entender gargalos e simplificar o que fico
 
 Um estudo sobre consultas N+1 na navegação de registros hierárquicos, usando CTEs recursivas e integração assíncrona com Delphi para reduzir acessos ao banco e manter a interface responsiva.
 
----
+ ---
 
 Conheça mais sobre meu trabalho: **[LinkedIn](https://www.linkedin.com/in/henrick-gus/)** · **[Portfólio](https://gustavohenrick.com/)**.
+
+### Contribuições em movimento
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/henrick-gus/henrick-gus/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/henrick-gus/henrick-gus/output/snake.svg" />
+  <img alt="Cobrinha em ciano percorrendo meu calendário de contribuições do GitHub." src="https://raw.githubusercontent.com/henrick-gus/henrick-gus/output/snake-dark.svg" width="100%" />
+</picture>
